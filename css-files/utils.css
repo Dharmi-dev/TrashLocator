@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+  --grey-color: grey;
+  --soft-black:#232323;
+  --pri-color: rgb(187, 41, 187);
+  font-family: "Nunito";
+}
+
+.C2{
+  background: greenyellow;
+}
+
+.C1{
+  background: orangered;
+}
+.C3{
+  background: violet;
+}
+
+.max-width-1{
+  max-width: 90vw;
+}
+.max-width-2{
+  max-width: 85vw;
+}
+
+.max-width-3{
+  max-width: 70vw;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.my-auto{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.form-input{
+  padding: 6px 10px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  outline: none;
+  
+
+}
+
+
+
+.form-box input,textarea{
+  width: 44vw;
+  padding: 8px 10px;
+  margin: 7px ;
+  outline:none;
+  border-radius: 5px;
+  
+}
+
+.pri-btn{
+  color:white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.pri-btn:hover{
+  background-color: var(--pri-color);
+}
+
+.sec-btn{
+  font-weight: 600;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 10px;
+  color: #232323;
+  background:white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-btn:hover{
+  color: white;
+  background-color: var(--grey-color);
+}
+
