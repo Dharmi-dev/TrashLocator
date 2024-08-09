@@ -1,6 +1,19 @@
 # TrashLocator
 ### A website to control and solve the waste management system in and around our society.
 
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-cyan.svg?style=badge&color=green) 
+![GitHub forks](https://img.shields.io/github/forks/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub Repo stars](https://img.shields.io/github/stars/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub contributors](https://img.shields.io/github/contributors/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub last commit](https://img.shields.io/github/last-commit/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub repo size](https://img.shields.io/github/repo-size/Dharmi-dev/TrashLocator?style=badge&color=green)
+![Github](https://img.shields.io/github/license/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub issues](https://img.shields.io/github/issues/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Dharmi-dev/TrashLocator?style=badge&color=green)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Dharmi-dev/TrashLocator?style=badge&color=green)
+
+
 # Description:
 In urban environment, waste management remains one of the most significant challenges. Overflowing bins, littered streets, and inadequate waste disposal facilities contribute to environmental pollution and health hazards. Recognizing this pressing issue, we introduce TrashLocator, an innovative web application designed to transform how we manage and dispose of waste. TrashLocator is a platform which finds the location of Dustbins around the user’s loaction.
 <br>
