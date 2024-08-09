@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+  --grey-color: grey;
+  --soft-black:#232323;
+  /* --pri-color: rgb(187, 41, 187); */
+  --white:white;
+  --btn-hover:#2d954c;
+  font-family: "Nunito";
+}
+
+.C2{
+  background: greenyellow;
+}
+
+.C1{
+  background: orangered;
+}
+.C3{
+  background: violet;
+}
+
+.max-width-1{
+  max-width: 90vw;
+}
+.max-width-2{
+  max-width: 85vw;
+}
+
+.max-width-3{
+  max-width: 70vw;
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.my-auto{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.form-input{
+  padding: 8px 10px;
+  /* border: 2px solid grey; */
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  
+
+}
+
+
+
+.form-box input,textarea{
+  width: 44vw;
+  padding: 8px 10px;
+  margin: 7px ;
+  outline:none;
+  border-radius: 5px;
+  
+}
+
+.pri-btn{
+  background: var(--pri-color);
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: var(--white);
+}
+.sec-btn{
+  /* background: var(--pri-color); */
+  border: 2px solid var(--pri-color);
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: var(--pri-color);
+  font-weight: 600;
+}
+
+.pri-btn:hover{
+  background-color: var(--btn-hover);
+}
+
+.sec-btn:hover{
+  color: var(--white);
+  background-color: var(--pri-color);
+}
+
+.btn{
+  padding: 6px 10px;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background: rgb(247, 238, 238);
+}
