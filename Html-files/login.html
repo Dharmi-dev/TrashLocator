@@ -1,15 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <link rel="stylesheet" href="../css-files/login.css">
+  <style>
+    body {
+      background-color: rgb(24, 111, 187);
+      background-color:black;
+            box-shadow: 20px 3px 5px 3px black;
+            position:relative;
+            background-image:url(./image\ \(1\).png);
+            background-repeat:no-repeat;
+            background-size:cover;
+            height:100vh;
+          display:grid;
+          justify-content: right;
+          align-content: center;
+          grid-template-columns: 500px;
+          grid-template-rows:500px;
+          
+
+    }
+
+    .big {
+      display: grid;
+      grid-template-rows: 60px 70px 70px 70px 70px 40px;
+      grid-template-columns: 300px;
+      justify-content: center;
+      gap: 9px;
+      justify-items: center;
+      background-color:#399918;
+     
+
+
+
+
+    }
+
+    .a {
+      width: 300px;
+      height: 39px;
+      display: grid;
+      justify-items: left;
+      align-items: center;
+      font-size: 16px;
+      background-color: white;
+
+
+
+
+      /* border: 2px solid red; */
+      /* border-color: aqua; */
+      border-radius: 10px;
+
+
+    }
+
+    h3 {
+      justify-self: left;
+      align-items: bottom;
+      margin-top: 30px;
+      font-size: 25px;
+      color:white;
+
+    }
+
+    .get {
+      justify-content: center;
+      background-color:#90dd77;
+      border: 2px solid black;
+
+    }
+
+    .or {
+      font-size: 20px;
+      color:white;
+    }
+
+    .google {
+      display: grid;
+      grid-template-columns: 30px 50px;
+      border: 3px solid darkblue;
+
+    }
+
+    .G {
+      font-weight: bolder;
+      font-size: 25px
+    }
+    .name, .a{
+      padding: 0 1rem;
+    }
+
+    .big{
+      
+      width: 25rem;
+      border-radius: 10px;
+      padding: 1rem 0;
+      z-index: 1;
+    }
+  
+  </style>
 </head>
+
 <body>
-    <h1> hello world 
+
+<!-- ---navigation starts----- -->
+
+
+  <nav class="navigation max-width-2">
+    <div class="nav-left">
+      <span class="comp-name comp-nav">TrashLocator</span>  
+    </div>
+
+    <div class="nav-center">
+      <ul>
+
+        <li><a href="/Blog_web/index.html">Home</a></li>
+        <li><a href="/Blog_web/blog.html">Faqs</a></li>
+        <!-- <li><a href="">Service</a></li> -->
+        <li><a href="/Blog_web/contact.html">Help</a></li>
+        <li><a href="/Blog_web/contact.html">Contact</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="nav-right">
+      <!-- <form action="/search.html" method="get">
+        <i class="ri-search-2-line"></i>
+        <input class="form-input" name="query" type="text" placeholder="Search area">
+        
+      </form> -->
+      <a href="/Html-files/Login.html" class="pri-btn anchor anchor-Btn">Sign up</a>
+      <a href="/Html-files/Login.html" class="sec-btn anchor anchor-Btn">Login</a>
+    </div>
+  </nav>
+
+<!-- ----nav ends ---- -->
+
+
+  <!-- <h1> hello world 
         ganesh and dharmesh
     </h1>
-    <h2>sample 2</h2>
-    
+    <h2>sample 2</h2> -->
+
+  <div class="big">
+    <h3>Create an account</h3>
+    <div class="name a">name</div>
+    <div class="email a">enter you email</div>
+    <div class="password a">password</div>
+    <div class="get a">Get Started</div>
+    <div class=" or"> or</div>
+    <div class="google a">
+      <div class="G">G</div>
+      Google
+    </div>
+  </div>
+
 </body>
+
 </html>
