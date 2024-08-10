@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito";
+}
+
+/* ----  navbar ----- */
+
+.navigation{
+    height: auto;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem auto;
+    align-items: center;
+  }
+  
+  .nav-left{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 300px; */
+  }
+  .nav-left span{
+    height: auto;
+  }
+  .nav-left span img{
+    height: 5rem;
+  }
+  
+  .nav-center ul{
+    display: flex;
+    font-size: 1rem;
+    list-style-type: none;
+    gap: 1.5rem;
+  }
+  
+  /* .nav-left ul li{
+    margin: 0 2rem;
+    transition: all 0.2s ease-in-out;
+  } */
+  
+  
+  .nav-center ul li a{
+    text-decoration: none;
+    color: var(--soft-black);
+    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition:all 0.2s ease-in-out;
+  }
+  .nav-center ul li a:hover{
+    color: var(--pri-color);
+    /* font-weight: bolder; */
+  }
+  
+  .nav-center ul li a:hover::after{
+    width: 100%;
+  }
+  
+  .nav-center ul li a::after{
+    content: "";
+    transition: 0.3s;
+    margin: auto;
+    display: block;
+    width: 0%;
+    background: var(--pri-color);
+    height: 2px;
+    border-radius: 10px;
+  }
+  
+  .nav-right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .nav-right i{
+    color: var(--soft-black);
+    font-size: 1.2rem;
+  }
+  
+  .nav-right form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+  }
+  
+  
+  /* ------navbar finish---- */
+  
