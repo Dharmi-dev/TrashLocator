@@ -6,6 +6,7 @@
   --pri-color:#45ac64;
   --sec-color:#468ffe;
   --btn-hover:#2d954c;
+  --myfamily:'Nunito';
 }
 
 
@@ -14,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito";
 }
 
 body{
@@ -196,6 +198,66 @@ justify-content: space-between;
   gap: .7rem;
 }
 
+/* ----side-navbar---- */
+
+.side-navbar{
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 999;
+  height: 100vh;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.182);
+  backdrop-filter:blur(10px);
+
+  display: none;
+  flex-direction: column;  
+  justify-content: start;
+  align-items: center;
+  box-shadow: 0 0 15px var(--background);
+}
+
+.side-navbar li{
+  display: inline-flex;  
+  width: 100%;
+  padding: 10px 20px;
+  
+  border-radius: 10px;
+
+}
+
+.nav-center .side-navbar{
+  display: none;
+}
+
+
+.menu-btn-nav{
+  font-size: 1.7rem;
+  /* background-color: red; */
+  width: 85%;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cross-btn-nav{
+  display: none;
+  width: 85%;
+  font-size: 1.7rem;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.side-navbar li:hover{
+  background-color: #cdd6d0;
+  /* border: 2px solid var(--btn-hover); */
+  color: var(--white);
+}
+
+.side-navbar li a:hover{
+  color: var(--white);
+}
+
 
 /* ------navbar finish---- */
 
@@ -290,5 +352,60 @@ justify-content: space-between;
   font-size: 1.2rem;
 }
 
+/* ----responsiveness --- */
 
+@media screen and (max-width:1200px){
+  .navigation{
+    width: 100%;
+
+  }
+
+  .hero-image{
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .left-Hero h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
+
+
+@media screen and (max-width:850px){
+  .hero-section{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .left-Hero h1{
+    text-align: center;
+  }
+
+  .comp-hero::after{
+    margin: auto;
+  }
+
+  .nav-center{
+    display: none;
+  }
+
+  .nav-right button{
+    display: none;
+  }
+
+  .left-down-hero{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-Hero{
+    gap: 2rem;
+  }
+
+  .social-media{
+    margin: 10px auto;
+  }
+}
 
