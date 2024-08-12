@@ -32,7 +32,7 @@
       </div>
 
       <div class="nav-center">
-        <ul>
+        <ul class="hideOnMobile">
   
           <li><a href="/Blog_web/index.html">Home</a></li>
           <li><a href="/Blog_web/blog.html">Faqs</a></li>
@@ -43,8 +43,8 @@
         </ul>
 
         <ul class="side-navbar">
-          <span class="cross-btn-nav"><i class="ri-close-line"></i></i></span>
-          <span class="menu-btn-nav"><i class="ri-menu-line"></i></span>
+          <span class="cross-btn-nav" onclick="hideSidebar()"><i class="ri-close-line"></i></i></span>
+          <!-- <span class="menu-btn-nav"><i class="ri-menu-line"></i></span> -->
   
           <li><a href="/Blog_web/index.html">Home</a></li>
           <li><a href="/Blog_web/blog.html">Faqs</a></li>
@@ -52,7 +52,7 @@
           <li><a href="/Blog_web/contact.html">Help</a></li>
           <li><a href="/Blog_web/contact.html">Contact</a></li>
           <a href="/Html-files/Login.html" class="pri-btn anchor anchor-Btn">Sign up</a>
-        <a href="/Html-files/Login.html" class="sec-btn anchor anchor-Btn">Login</a>
+          <a href="/Html-files/Login.html" class="sec-btn anchor anchor-Btn">Login</a>
           
         </ul>
       </div>
@@ -65,7 +65,7 @@
         </form> -->
         <a href="/Html-files/Login.html" class="pri-btn anchor anchor-Btn">Sign up</a>
         <a href="/Html-files/Login.html" class="sec-btn anchor anchor-Btn">Login</a>
-        <a href="/Html-files/Login.html" class="sec-btn anchor anchor-Btn"><i class="ri-menu-line"></a>
+        <span class="menu-btn-nav" onclick="showSidebar()"><i class="ri-menu-line"></i></span>
         <!-- <i class="ri-menu-line"> -->
       </div>
     </nav>
