@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Question</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq">
+            <button class="accordion">
+                What is TrashLocater about?
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>TrashLocator is an innovative web application that helps users find the nearest dustbins around their location in urban areas. It aims to reduce waste management problems by making it easier for people to dispose of their trash responsibly.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                How does TrashLocator work?
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>TrashLocator uses mapping technology to display the locations of nearby dustbins. Users can also nominate new dustbin locations, which are then verified by the community to ensure the legitimacy of their location.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                How can I add a new location for a dustbin?
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>You can add a new dustbin location by logging into the TrashLocator platform and using the "Camera feature". You'll need to provide details about the location and a photo of the dustbin. Once submitted, the location will be reviewed and verified by the community.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                How is the verification process done?
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>Once a user nominates a new dustbin location, other users in the community can verify its legitimacy. The location is cross-checked against our criteria, and once a certain number of users have verified it, the dustbin is added to the map.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                What are the benefits of using TrashLocator?
+
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>Using TrashLocator makes it easier to locate dustbins around your current surrounding areas, leading to better waste disposal practices. This helps keep the city clean, reduces littering, and contributes to a healthier living environment by minimizing pests and pollution.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                How can I contact support?
+
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>If you have any questions or need assistance, you can reach out to our support team through the "Contact Us" section on our website. We're here to help!</p>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                What is the credit system?
+
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>The credit system rewards users for their contributions to TrashLocator. You earn credits by nominating new dustbin locations, verifying existing ones, and using the platform regularly. 
+                </p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="accordion">
+                Is TrashLocator available in my city?
+
+
+                <i class="fa-solid fa-chevron-down"></i>
+
+            </button>
+            <div class="pannel">
+                <p>TrashLocator is currently expanding its coverage. You can check if your city is supported by visiting our website and entering your location. If it's not yet available, you can nominate your city for future inclusion.</p> 
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName
+        ("accordion");
+        var i;
+
+        for(i=0; i< acc.length; i++){
+            acc[i].addEventListener("click", function
+            (){
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle
+                ("active");
+
+                var pannel=this.nextElementSibling;
+
+                if(pannel.style.display === "block"){
+                    pannel.style.display="none";
+                } else{
+                    pannel.style.display="block";
+
+                }
+            });
+        }
+    </script>
+    
+</body>
+</html>
